@@ -1,0 +1,23 @@
+.button {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 1.1rem;
+  margin-right: 0.5vw;
+  font-family: 'Neue Machina';
+  width: 11.5rem;
+  height: 3rem;
+  background-color: rgba(240, 248, 255, 0);
+  color: white;
+}
+
+.button:hover {
+  background-color: #0000dc;
+}
+
+@font-face{
+  src: url(/src/components/fonts/neue-machina/NeueMachina-Regular.ttf);
+  font-family: 'Neue Machina';
+}
